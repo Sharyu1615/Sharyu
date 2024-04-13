@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+    width: 300px;
+ background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 8px;
+}
+.sidebar-nav{
+    background-color:#181818;
+    border-radius: 10px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.logo img{
+    width: 130px;
+    height: 40px;
+    padding: 5px 20px;  
+    margin:0px 10px;
+    color: azure;
+    
+}
+p{
+    color: azure;
+}
+.Home{
+    color: azure;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search {
+    color: azure;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sidebar-nav2{
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 10px;
+}
+.create-playlist{
+    margin-bottom: 10px;
+}
+.library svg{
+    color: white;
+}
+.h4{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+button{
+    font-weight: 400;
+    font-size: small;
+}
+.btn1{
+    border-radius: 10px;
+
+}
+.sidebar-scroll{
+    height: 120px;
+    overflow-y: auto;
+}
+.sidebar-nav3{
+    background-color: black;
+}
+ .main-section{
+    margin-left: 300px;
+    background: #181818;
+    height: 100vh;
+    overflow: auto;
+ }
+ .main-section .top-nav{
+    padding: 25px 30px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .main-section .top-nav .prev-btn .left {
+    background: transparent;
+    border: 0;
+    outline: 0;
+
+ }
+ .main-section .top-nav .prev-btn .right{
+    background: transparent;
+    border: 0;
+    outline: 0;
+
+ }
+ .main-section .top-nav .prev-btn .left svg{
+    color: white;
+    font-size: 22px;
+ }
+ .main-section .top-nav .prev-btn .right svg{
+    color: white;
+    font-size: 22px;
+    margin-right: 10px;
+ }
+ .top-nav .login-btn .signup{
+    color: #838181;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 20px;
+    border: 10px;
+    margin: 15px;
+ }
+ .top-nav .login-btn .signup:hover{
+    color: white;
+    
+ }
+ .top-nav .login-btn .login{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 20px;
+ }
+ .top-nav .login-btn .login:hover{
+    color: black;
+ }
+
+ .spotify-playlist{
+    padding: 20px 40px;
+ }
+ .spotify-playlist h2{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+ }
+ .songs{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    background-color: #181818;
+ }
+ .spotify-playlist .songs .items{
+    width: 190px;
+    min-width: 140px;
+    background-color: #181818;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 15px;
+ }
+ .spotify-playlist .songs .items:hover{
+   background-color: #3d3c3c
+
+}
+ .spotify-playlist .songs .items img{
+    display: flex;
+    width: 100%;
+   border-radius: 6px;
+   margin-bottom: 10px;
+ }
+ .spotify-playlist .songs .items h4{
+    color: white;
+ }
+ .spotify-playlist .items p {
+    color: #8f8e8e;
+    font-size: 13px;
+    margin-top: 10px;
+ }
+.spotify-playlist .items p:hover{
+    text-decoration: underline;
+ }
+ .footer-section{
+   padding: 20px 40px;
+}
+.footer-section .footer{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.footer-section .footer .footer-link{
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+}
+.footer-section .footer .footer-link .footer-column{
+   margin: 0 12px;
+}
+.footer-section .footer .footer-link div{
+   color: white;
+   font-weight: 600;
+   margin-bottom: 12px;
+   font-size: 16px;
+}
+.footer-section .footer .footer-link ul li {
+   list-style: none;
+   margin: 6px 0;
+}
+.footer-section .footer .footer-link .footer-column .col-link li a{
+   text-decoration: none;
+   color: #969393;
+   font-size: 14px;
+   cursor: pointer;
+}
+.social-link svg{
+   height: 30px;
+   width: 30px;
+}
+.sidebar-nav3{
+   background-color:#181818;
+   border-radius: 10px;
+   padding: 10px ;
+   margin-bottom: 10px;
+   
+}
